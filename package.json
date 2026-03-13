@@ -1,6 +1,6 @@
 {
-  "name": "testla-lens",
-  "version": "1.0.0",
+  "name": "@testla/testla-lens",
+  "version": "0.1.0-beta",
   "description": "testla-lens keeps your Playwright Screenplay suite clean, readable and duplicate-free.",
   "main": "dist/index.js",
   "bin": {
