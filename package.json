@@ -1,0 +1,43 @@
+{
+  "name": "testla-lens",
+  "version": "1.0.0",
+  "description": "testla-lens keeps your Playwright Screenplay suite clean, readable and duplicate-free.",
+  "main": "dist/index.js",
+  "bin": {
+    "testla-lens": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "echo \"No linter configured\"",
+    "test": "echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testla-project/testla-lens.git"
+  },
+  "keywords": [
+    "playwright",
+    "screenplay",
+    "testla",
+    "readability",
+    "duplicates",
+    "quality",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/testla-project/testla-lens/issues"
+  },
+  "homepage": "https://github.com/testla-project/testla-lens#readme",
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "7.18.0",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
